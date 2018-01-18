@@ -1,0 +1,22 @@
+{
+    "name": "bokkagroup/atom-child",
+    "type": "wordpress-theme",
+    "description": "Theme built for the Catalyst WP Toolbox.",
+    "license": "GNU2",
+    "authors": [
+        {
+            "name": "Bokkagroup",
+            "email": "mike@bokkagroup.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CatalystWP\\Atom\\models\\" : "models/",
+            "CatalystWP\\Atom\\controllers\\" : "controllers/",
+            "CatalystWP\\Atom\\views\\" : "views/"
+        }
+    },
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
