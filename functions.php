@@ -26,6 +26,9 @@ add_action(
             require_once($filename);
         }
 
+        require_once(get_stylesheet_directory() . "/models/organisms/Header.php");
+        require_once(get_stylesheet_directory() . "/models/organisms/Footer.php");
+
         /**
          * Custom includes below:
          */
